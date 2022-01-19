@@ -1,0 +1,57 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}
+
+body {
+    font-family:"Helvetica Neue", Helvetica, STheiti, 微软雅黑, Arial,Tahoma, sans-serif, serif;
+    background:url(bg.png);
+    font-size:18px;
+    color:#999;
+    text-shadow:0 1px 0 #fff;
+}
+a {
+    color:#999;
+    text-decoration:none;
+    &:hover {
+        color:#1abc9c;
+    }
+}
+.wrapper {
+    position:absolute;
+    top:50%;
+    margin-top:-110px;
+    height:220px;
+    width:100%;
+}
+.content {
+    margin:0 auto;
+    width:920px;
+    height:220px;
+}
+.record {
+    display:block;
+    float:left;
+    height:220px;
+    width:220px;
+    background:url(record.png) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="record.png");
+}
+p,ul {
+    float:left;
+    width:300px;
+}
+p,li {
+    height:220px;
+    line-height:220px;
+}
+li {
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+ul {
+    padding-left:50px;
+}
+p {
+    text-align:right;
+    padding-right:50px;
+}
